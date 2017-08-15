@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{3F40CEFA-16F9-1D32-B69C-8EA05C663F55}") = "Tutorial Unity - Desenvolvendo Assets - Controlador de Arquivos", "Assembly-CSharp.csproj", "{B23D658C-0FC1-E133-347A-3A4F66D4B5CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B23D658C-0FC1-E133-347A-3A4F66D4B5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23D658C-0FC1-E133-347A-3A4F66D4B5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23D658C-0FC1-E133-347A-3A4F66D4B5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B23D658C-0FC1-E133-347A-3A4F66D4B5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
