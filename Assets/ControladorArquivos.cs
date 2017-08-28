@@ -35,4 +35,25 @@ public class ControladorArquivos {
 			arquivo.Close();
 		}
 	}
+
+	public string lerArquivo(string nome){
+		if (this.validarArquivo (nome)) {
+			var arquivo = File.OpenText(this._caminho+"/"+nome);
+			string temp = arquivo.ReadLine().ToString();
+			arquivo.Close();
+			return temp;
+		} else {
+			Debug.Log("Esse arquivo nao existe");
+			return "";
+		}
+	}
+
+	public T lerJson<T>(string nome){
+		string json = this.lerArquivo (nome);
+		if (json != "") {
+			return JsonUtility.FromJson<T> (json);
+		} else {
+			return default(T);
+		}
+	}
 }
